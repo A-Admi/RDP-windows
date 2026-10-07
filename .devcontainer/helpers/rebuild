@@ -1,0 +1,1 @@
+gh codespace rebuild --codespace $CODESPACE_NAME --full

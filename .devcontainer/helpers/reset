@@ -1,0 +1,7 @@
+export REPOSITORY=github
+
+kill
+rm --force /workspaces/$REPOSITORY/windows/data.img
+
+cp /tmp/$REPOSITORY/windows/data.img /workspaces/$REPOSITORY/windows/data.img
+start
